@@ -18,7 +18,7 @@ ul {
 
 /*Start Header */
 header {
-  background-image: url(/image/header/Rectangle\ 2.jpg);
+  background: url(/image/header/Rectangle\ 2.jpg);
   background-size: contain;
 }
 
@@ -40,19 +40,26 @@ header {
   display: flex;
 }
 
+.header-list > a {
+  color: black;
+  opacity: 0.7;
+}
+
 .heade-nav-list {
   gap: 23px;
 }
 
 .nav-list {
   font-size: 14px;
-  font-family: "Manrope";
+  font-style: normal;
   font-weight: 400;
-  line-height: 22.4px;
+  line-height: 160%;
+  opacity: 0.7;
 }
 
 .nav-list:hover {
   cursor: pointer;
+  opacity: 1;
 }
 
 .header-icon-container {
@@ -282,6 +289,24 @@ select {
   background-color: #f3f3f3;
 }
 
+.border-line {
+  border-left: 3px solid #9c1a30;
+  padding-left: 31.5px;
+  margin-left: 14.5px;
+}
+
+.four-section-circle {
+  padding-right: 17px;
+}
+
+.four-section-circle-line {
+  display: flex;
+}
+
+.move {
+  padding-left: 46px;
+}
+
 .four-section-position {
   display: flex;
   padding-top: 90px;
@@ -381,17 +406,56 @@ select {
   gap: 24px;
 }
 
-.section-reviews-button {
+/* .section-reviews-button {
   border-radius: 46px;
   background: #fbdce1;
   width: 48px;
   height: 48px;
   margin-top: 6px;
+} */
+.slider-container {
+  max-width: 1164px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  justify-content: center;
+  align-items: center;
+}
+.slide {
+  max-width: 966px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 0 0 100%;
+}
+.controls {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.control-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 46px;
+  background: #fbdce1;
+  width: 48px;
+  height: 48px;
+  padding: 10px;
+  cursor: pointer;
 }
 
-.section-reviews-button > img {
+/* .section-reviews-button > img {
   padding: 10px;
-}
+} */
 
 .section-reviews-text {
   font-size: 15px;
