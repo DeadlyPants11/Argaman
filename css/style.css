@@ -18,7 +18,7 @@ ul {
 
 /*Start Header */
 header {
-  background: url(image/header/Rectangle\ 2.jpg);
+  background: url(../image/header/Rectangle\ 2.jpg);
   background-size: contain;
 }
 
@@ -650,7 +650,7 @@ select {
 /* End Section Contact */
 /* Start footer */
 footer {
-  background: url(image/footer/background-waves.png) #252525 no-repeat;
+  background: url(../image/footer/background-waves.png) #252525 no-repeat;
   background-position: right;
 }
 
