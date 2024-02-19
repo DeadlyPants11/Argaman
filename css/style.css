@@ -32,7 +32,6 @@ header {
   display: flex;
   justify-content: space-between;
   padding-top: 25px;
-  padding-bottom: 79.56px;
   align-items: center;
 }
 
@@ -60,6 +59,7 @@ header {
 .nav-list:hover {
   cursor: pointer;
   opacity: 1;
+  color: black;
 }
 
 .header-icon-container {
@@ -90,6 +90,7 @@ select {
 
 .header-about {
   width: 669px;
+  padding-top: 111.56px;
 }
 
 .header-about-position {
@@ -125,10 +126,17 @@ select {
   border-radius: 20px;
   margin-right: 12px;
   margin-bottom: 97px;
+  border: none;
+}
+
+.header-about-button,
+.header-about-button-disc:hover {
+  cursor: pointer;
 }
 
 .header-about-img {
   width: 602px;
+  padding-top: 6.56px;
 }
 
 .button-text {
